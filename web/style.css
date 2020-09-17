@@ -9,6 +9,19 @@ body{
     position: relative; 
     background-color: #bbbbf9;
 }
+#smt{
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 50%;
+}
+#buttons{
+    width: 650px; 
+    height: 100%; 
+    margin: 0 auto; 
+    border: 1px solid black; 
+    border-bottom-width: 0px;
+}
 div {
     box-sizing: border-box;
     
