@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-color: #9291f7;
+}
+#banner{
+    border: 2px solid black;
+    width: auto; 
+    height: 200px; 
+    position: relative; 
+    background-color: #bbbbf9;
+}
+div {
+    box-sizing: border-box;
+    
+}
+div.page{
+    width: 25%;
+    height: 100%;
+    border: 1px solid black;
+    border-bottom-width: 0px;
+    background-color: #b4ffff;
+    float: left;
+
+}
+#content{
+    margin: 0 auto;
+    height: auto;
+    width: 650px;
+    background-color: white;
+    border: 2px solid black;
+    border-top-width: 0px;
+    padding: 5px;
+}
