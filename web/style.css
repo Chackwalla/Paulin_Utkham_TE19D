@@ -11,7 +11,8 @@ body{
 }
 */
 #banner{
-    border: 2px solid black;
+    border: 1px solid black;
+    border-bottom: 1.5px solid black;
     width: auto; 
     height: 100px; 
     position: relative; 
@@ -55,7 +56,7 @@ div.page{
     width: 650px;
     height: 623px;
     background-color: white;
-    border: 2px solid black;
+    border: 1.5px solid black;
     border-top: 0px;
 }
 #content{
@@ -63,7 +64,7 @@ div.page{
     height: auto;
     width: 650px;
     background-color: white;
-    border: 2px solid black;
+    border: 1.5px solid black;
     border-top-width: 0px;
     border-bottom: 0px;
     padding: 5px;
