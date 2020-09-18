@@ -2,10 +2,18 @@ body{
     margin: 0;
     background-color: #9291f7;
 }
+/*
+#bigBox{
+    margin: 5px 10px;
+    background-color: white;
+    width: auto;
+    height: 723px;
+}
+*/
 #banner{
     border: 2px solid black;
     width: auto; 
-    height: 200px; 
+    height: 100px; 
     position: relative; 
     background-color: #bbbbf9;
 }
@@ -35,6 +43,21 @@ div.page{
     float: left;
 
 }
+/*
+#lower{
+    width: 0 auto;
+    height: 623px;
+    background-color: aquamarine;
+}
+*/
+#middle{
+    margin: 0 auto;
+    width: 650px;
+    height: 623px;
+    background-color: white;
+    border: 2px solid black;
+    border-top: 0px;
+}
 #content{
     margin: 0 auto;
     height: auto;
@@ -42,5 +65,6 @@ div.page{
     background-color: white;
     border: 2px solid black;
     border-top-width: 0px;
+    border-bottom: 0px;
     padding: 5px;
 }
