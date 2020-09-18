@@ -1,8 +1,18 @@
 body{
     margin: 0;
-    background-color: #9291f7;
+    background-image: url("https://media.discordapp.net/attachments/714782809482461197/756633475666280448/fantasy_tempel_orig.png"); /* The image used */
+    background-color: #9291f7; /* Used if the image is unavailable */
+    height: 990px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
 }
 /*
+    background-color: #9291f7;
+    background-image: url("https://media.discordapp.net/attachments/714782809482461197/756633475666280448/fantasy_tempel_orig.png");
+    width: auto;
+    height: 500px;
+
 #bigBox{
     margin: 5px 10px;
     background-color: white;
@@ -50,7 +60,7 @@ div.page{
     height: 623px;
     background-color: aquamarine;
 }
-*/
+
 #middle{
     margin: 0 auto;
     width: 650px;
@@ -59,6 +69,7 @@ div.page{
     border: 1.5px solid black;
     border-top: 0px;
 }
+*/
 #content{
     margin: 0 auto;
     height: auto;
@@ -69,3 +80,22 @@ div.page{
     border-bottom: 0px;
     padding: 5px;
 }
+#ocean{
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+}
+#yes{
+    color:  turquoise;
+}
+#kitty_council{
+    width: 618px;
+    border-color: #00dfdb;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 30px;
+}
+border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
