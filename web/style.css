@@ -22,9 +22,10 @@ body{
 */
 #banner{
     border: 1px solid black;
-    border-bottom: 1.5px solid black;
-    width: auto; 
+    /*border-bottom: 2px solid black;*/
+    width: 100%; 
     height: 100px; 
+    min-width: 650px;
     position: relative; 
     background-color: #bbbbf9;
 }
@@ -35,11 +36,11 @@ body{
     height: 50%;
 }
 #buttons{
-    width: 650px; 
+    width: 648px; 
     height: 100%; 
     margin: 0 auto; 
-    border: 1px solid black; 
-    border-bottom-width: 0px;
+    border: 0px solid black; 
+    border-right-width: 1px;
 }
 div {
     box-sizing: border-box;
@@ -48,11 +49,14 @@ div {
 div.page{
     width: 25%;
     height: 100%;
-    border: 1px solid black;
-    border-bottom-width: 0px;
+    border: 0px solid black;
+    border-top-width: 1px;
+    border-left-width: 1px;
     background-color: #b4ffff;
     float: left;
-
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
 }
 /*
 #lower{
@@ -73,17 +77,17 @@ div.page{
 #content{
     margin: 0 auto;
     height: auto;
-    width: 650px;
+    width: 648px;
     background-color: white;
-    border: 1.5px solid black;
-    border-top-width: 0px;
-    border-bottom: 0px;
+    border: 0px solid black;
+    border-left-width: 1px;
+    border-right-width: 1px;
     padding: 5px;
 }
 #ocean{
-    margin: 0 auto;
-    width: 100px;
-    height: 40px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
 }
 #yes{
     color:  turquoise;
@@ -95,6 +99,7 @@ div.page{
     border-style: solid;
     border-radius: 30px;
 }
+/*
 border-color: green;
     border-width: 10px;
     border-style: solid;
