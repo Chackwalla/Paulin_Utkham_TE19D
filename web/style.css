@@ -1,25 +1,13 @@
+/* Common shtuff and CV */
 body{
     margin: 0;
     background-image: url("https://media.discordapp.net/attachments/714782809482461197/756633475666280448/fantasy_tempel_orig.png"); /* The image used */
     background-color: #9291f7; /* Used if the image is unavailable */
     height: 990px; /* You must set a specified height */
     background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-repeat: 2; /* Do not repeat the image */
     background-size: cover;
 }
-/*
-    background-color: #9291f7;
-    background-image: url("https://media.discordapp.net/attachments/714782809482461197/756633475666280448/fantasy_tempel_orig.png");
-    width: auto;
-    height: 500px;
-
-#bigBox{
-    margin: 5px 10px;
-    background-color: white;
-    width: auto;
-    height: 723px;
-}
-*/
 #banner{
     border: 1px solid black;
     /*border-bottom: 2px solid black;*/
@@ -76,22 +64,9 @@ div.page:active {
 div.activepage{
     background-color: #98f0f0;
 }
-/*
-#lower{
-    width: 0 auto;
-    height: 623px;
-    background-color: aquamarine;
+.aaa{
+    text-decoration-color: black;
 }
-
-#middle{
-    margin: 0 auto;
-    width: 650px;
-    height: 623px;
-    background-color: white;
-    border: 1.5px solid black;
-    border-top: 0px;
-}
-*/
 #content{
     margin: 0 auto;
     height: auto;
@@ -117,8 +92,39 @@ div.activepage{
     border-style: solid;
     border-radius: 30px;
 }
-/*
-border-color: green;
-    border-width: 10px;
+
+/* INTERESTS */
+#kpopgbg{
+    width: 626px;
+    border-color: #80ffeea8;
+    border-width: 5px;
     border-style: solid;
-    border-radius: 50%;
+    border-radius: 30px;
+}
+
+/* SCHOOL */
+
+#NTI{
+    width: 618px;
+    border-color: #ac80ff7a;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 30px;
+}
+#bullet{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 100px;
+}
+#spilled{
+    width: 625px;
+    border-color: #00dfdb;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
