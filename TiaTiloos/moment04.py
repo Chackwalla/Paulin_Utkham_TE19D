@@ -17,7 +17,7 @@ for i in range(1,stop):
     # beräkna och skriv ut rektangelns area
     area=kort*long
 
-    print(area,end=" ")
+    print(area)
 
 
     # om båda sidorna är lika långa ...
