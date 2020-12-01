@@ -5,7 +5,12 @@ import random as rnd
 
 stop = 3 # int(input("How many loops do you wanna do?"))
 
-for i in range(1,stop):
+class
+
+def continue_or_nah():
+
+
+while yes:
 
     # Mata in rektangelns two sidor
 
@@ -34,3 +39,5 @@ for i in range(1,stop):
     
 
 print (i)
+
+def 
