@@ -5,12 +5,13 @@ import random as rnd
 
 stop = 3 # int(input("How many loops do you wanna do?"))
 
-class
+#class
 
-def continue_or_nah():
+#def continue_or_nah():
 
+f = input("Vill du göra en ny beräkning? (ja/nej)")
 
-while yes:
+while f == "ja":
 
     # Mata in rektangelns two sidor
 
@@ -38,6 +39,5 @@ while yes:
 
     
 
-print (i)
+print (f)
 
-def 
