@@ -5,20 +5,31 @@ import random as rnd
 
 stop = 3 # int(input("How many loops do you wanna do?"))
 
-#class
-
-#def continue_or_nah():
-
-f = input("Vill du göra en ny beräkning? (ja/nej)")
-
-while f == "ja":
-
+while True:
+    f = input("Vill du göra en ny beräkning? (ja/nej): ")
+    
     # Mata in rektangelns two sidor
 
+    k = 0
+    
     kort = 5 #int(input("Korta sidan"))
-
+  
     long = 4 #int(input("långa sidan"))
 
+    while k == 0:
+        höjd = int(input("Höjden: "))
+    
+        k += 1
+
+        if isinstance(höjd, str):
+            k = 0
+
+        if höjd < 0:
+            höjd = 1
+
+        elif höjd > 10:
+            höjd = 10
+        
 
     # beräkna och skriv ut rektangelns area
     area=kort*long
@@ -37,7 +48,8 @@ while f == "ja":
     #else:
      #   print("Detta är en rektangel")
 
-    
+    if f == "nej":
+        break
 
 print (f)
 
