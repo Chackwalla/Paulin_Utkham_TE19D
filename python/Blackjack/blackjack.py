@@ -5,7 +5,7 @@ import kortlek
 
 
 # Ha kåll på handen
-def skrivutHanden(hand):
+def skrivUtHanden(hand):
     print("Your cards are: ", end="")
     for kort in hand:
         print(str(kort) + ", ", end=""
@@ -14,9 +14,9 @@ def skrivutHanden(hand):
 
 # spel-loop
 while True:
-    spela = input("Vill du spela blackjack? (y for yes, another key for no)")
+    spela = input("Do you wish to play blackjack? (y for yes, another key for no)")
 
-    if spela != "j":
+    if spela != "y":
         break
 
     lek = kortlek.skapaKortlek()
@@ -35,7 +35,7 @@ while True:
     while continue:
         #ask the user if they want to take a new card
         taKort = input("Take new card? (y for Yes, other key for No)")
-        if taKort == "j"
+        if taKort == "y"
             #dela ut kort
             hand.append(lek.pop(0))
             #skriv ut hand
