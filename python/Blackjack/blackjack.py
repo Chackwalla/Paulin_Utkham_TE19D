@@ -8,7 +8,7 @@ import kortlek
 def skrivUtHanden(hand):
     print("Your cards are: ", end="")
     for kort in hand:
-        print(str(kort) + ", ", end=""
+       print(str(kort) + ", ", end="")
 
 # Vem vinner
 
