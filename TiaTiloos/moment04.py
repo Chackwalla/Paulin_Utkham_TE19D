@@ -52,4 +52,3 @@ while True:
         break
 
 print (f)
-
