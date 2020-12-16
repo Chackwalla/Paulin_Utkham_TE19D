@@ -42,5 +42,3 @@ while True:
             skrivUtHand(hand)
         else:
             continue = False
-
-
